@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bikes Information</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+
+        .image_roi{
+            background-color: #2196f3;
+            border-radius: 0px
+            
+
+
+        
+        }
+        input{
+            border-radius: 9px;
+            width: 200px;
+            height: 25px;
+        }
+        .submit{
+            height: 25px;
+            width: 110px;
+            font-size: medium;
+            font-weight: bold;
+            
+
+
+        }
+
+        
+
+        .login_container {
+            border-radius: 10px;
+            background-color: #48A6A7;
+            width: 350px;
+            height: 300px;
+            padding-top: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 25px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2)
+           
+
+        }
+
+        label{
+            font-size: large;
+        }
+
+        .navbar{
+            border-radius: 10px;
+            background-color: #ffffff61;
+            padding-left: 5px;
+            padding-right: 5px;
+            
+            padding-bottom:0px ;
+            height: 80px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2)
+            
+        }
+        body{
+            background-color: #9ACBD0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <center>
+            <table width="100%" border="0">
+                <tr>
+                    <!-- Logo on Left -->
+                    <td align="left">
+                        <img src="./images/logo.png" alt="Logo" width="100">
+                    </td>
+    
+                    <!-- Menu Items on Right -->
+                    <td align="right">
+                        <a href="./index.html"><img src="./images/home.png" alt="Home" width="30"></a>
+                        <a href="#one"><img src="./images/infod.png" alt="Info" width="30"></a>
+                        <a href="#two"><img src="./images/call.png" alt="Contact" width="28"></a>
+                        <a href="./login.html"><img src="./images/enter.png" alt="login" width="28"></a>
+                        <a href="./signup.html"><img src="./images/add-friend.png" alt="signup" width="28"></a>
+                        
+    
+    
+    
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </nav>
+
+    <br>
+
+    <!-- Main Content (Bikes & Cars Section) -->
+    <table width="100%" border="0">
+        <tr>
+            <!-- Bikes Section -->
+            <td align="center">
+                <h1 style="color: #2973B2;">Bikes</h1>
+                <a href="./bikes.html"><img class="image_roi" src="./images/BIKE.jpg" alt="Bike" width="350"></a>
+            </td>
+
+            <!-- Cars Section -->
+            <td align="center">
+                <h1 style="color: #2973B2;">Cars</h1>
+                
+                    <a href="./car.html"><img  src="./images/CAR.jpg" alt="Car" width="350"></a>
+                
+            </td>
+        </tr>
+    </table>
+
+    <br><br><br>
+
+    <!-- Marquee Scrolling Image -->
+    <marquee behavior="alternate" scrollamount="15" direction="left">
+        <a href="./bikes.html">
+            <img src="./images/bike cartoon.png" alt="Scrolling Bike" width="300">
+        </a>
+    </marquee>
+
+    <marquee behavior="alternate" scrollamount="15" direction="right">
+        <a href="./car.html">
+            <img src="./images/car cartton.png" alt="Scrolling Bike" width="300">
+        </a>
+    </marquee>
+
+
+
+    <div style="font-size: large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+        <h1 id = "one" style="color: #2973B2;">About This Webpage - Bikes & Cars Information</h1>
+    <p>
+        Welcome to our Bikes & Cars Information Webpage! 
+    </p> 
+    <p>
+        This webpage is designed to provide you with detailed information about bikes and cars, helping you explore various models, features, and specifications. Whether you are a bike enthusiast or a car lover, this platform will give you insights into the latest vehicles, their performance, and key details.
+    </p>
+    <h3 >What You Can Find Here?</h3>
+    <ul>
+        <li>High-quality images of bikes and cars</li>
+        <li> Essential details about different vehicle models</li>
+        <li>A simple and user-friendly layout for easy navigation</li>
+        <li>Quick access to more information and sign-up options</li>
+    </ul> 
+    <p>Our goal is to make it easier for you to learn about your favorite bikes and cars all in one place. Enjoy browsing and stay updated with the latest vehicle trends! 🚀</p>
+    </div>
+    <br><br><br><br><br><br><br>
+
+
+
+    <!-- Contact Us -->
+
+    <center>
+        <table class="login_container">
+            <tr>
+                <td>
+                    
+                        <center>
+                            <h1 id ="two" style="color: 2973B2;">Contact Us</h1>
+                        </center>
+                
+                    <center>
+                        <form action="./submit.html">
+                            <label for="name"> Enter Your Name :</label><br><br>
+                            <input  type="text" name = "name" id ="name" required> <br><br>
+        
+                            <label for="num"> Enter Your Phone Number :</label><br><br>
+                            <input type="tel" name = "number" id ="num" required> <br><br>
+        
+                            <label for="email"> Enter Your email :</label><br><br>
+                            <input type="email" name = "email" id ="email" required> <br><br>
+        
+                            <input class="submit" type="submit" value="Submit">
+        
+        
+                    
+                        </form>
+                    </center>
+                
+                 
+                </td>
+            </tr>
+        </table>
+    </center>
+
+
+
+
+
+
+</body>
+
+</html>
