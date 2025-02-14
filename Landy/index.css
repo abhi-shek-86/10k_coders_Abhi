@@ -1,0 +1,486 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* Aligns logo & menu properly */
+    align-items: center;
+    padding: 10px 10%;
+    flex-wrap: wrap;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    /* Ensures items align properly */
+    column-gap: 40px;
+    padding-right: 140px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #18216d;
+    padding: 10px 15px;
+    /* Makes all menu items uniform */
+}
+
+.button {
+    background-color: #2e1868;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+.logo {
+    color: #2e1868;
+    padding-left: 60px;
+
+    font-size: 1.2rem;
+}
+
+
+
+.landingPage {
+    background-color: white;
+    display: flex;
+
+    justify-content: space-evenly;
+
+
+
+
+}
+
+.content {
+    width: 50%;
+    margin: 7% auto;
+}
+
+.content h3 {
+    font-size: 56px;
+    line-height: 1.18;
+    color: #2e1868;
+    margin-top: 1%;
+    padding-left: 10%;
+
+
+
+}
+
+.content p {
+    font-size: 30px;
+    color: #2e1868;
+
+
+    padding-left: 10%;
+
+
+}
+
+.img {
+    margin-top: 20%;
+    margin-right: 5%
+}
+
+.b1 {
+    background-color: #2e1868;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 90px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.b2 {
+    background-color: #2e1868;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.25);
+
+}
+
+.btns {
+    margin-top: 85px;
+    margin-left: 50px;
+
+
+}
+
+.b3 {
+    background-color: #2e1868;
+    color: white;
+    margin-left: 35%;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.land3 {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.land3 h3 {
+    font-size: 56px;
+    color: #2e1868;
+    margin-top: 1%;
+    padding-left: 20%;
+    padding-right: 5%;
+}
+
+.land3 p {
+    font-size: 25px;
+    color: #2e1868;
+    padding-left: 20%;
+    padding-right: 5%;
+
+}
+
+
+.img2 {
+    margin-top: 7%;
+    margin-left: 15%;
+
+}
+
+.notes {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+.noteP1>p {
+    font-size: 20px;
+}
+
+.noteP2>p {
+    font-size: 20px;
+
+}
+
+
+.last2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+
+}
+
+.head {
+    width: 40%;
+    margin-top: 13%;
+}
+
+.head>h3 {
+    margin-top: 10%;
+    font-size: 56px;
+    color: #2e1868;
+    padding-left: 1%;
+    padding-right: 5%;
+    text-align: center;
+
+}
+
+.head>p {
+    font-size: 25px;
+    color: #2e1868;
+    padding-left: 1%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.last3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.head1 {
+    width: 40%;
+    margin-top: 13%;
+}
+
+.head2 {
+    width: 40%;
+    margin-top: 17%;
+    margin-left: 10%;
+}
+
+.head2>h3 {
+    margin-top: 10%;
+    font-size: 56px;
+    color: #2e1868;
+    padding-left: 1%;
+    padding-right: 5%;
+    text-align: center;
+
+}
+
+.head2>p {
+    font-size: 25px;
+    color: #2e1868;
+    padding-left: 1%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.head1>img {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contactHeading {
+    width: 40%;
+    margin-top: 13%;
+}
+
+.contactHeading>h3 {
+    margin-top: 10%;
+    font-size: 56px;
+    color: #2e1868;
+    padding-left: 1%;
+    padding-right: 5%;
+    text-align: center;
+
+}
+
+
+.contactHeading>p {
+    font-size: 25px;
+    color: #2e1868;
+    padding-left: 1%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.form {
+    width: 40%;
+
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.sub {
+    background-color: #2e1868;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.25);
+
+}
+
+.subm {
+    padding-left: 45%;
+
+}
+
+
+
+
+
+/* Responsive Design */
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .button {
+        width: 100%;
+        text-align: center;
+        padding: 10px 3px; /* Adjust padding as needed */
+    }
+    
+    
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        flex-direction: row;
+        padding-right: 5px;
+
+        
+    }
+
+    .menu a {
+        font-size: 1.1rem;
+        padding: 8px 0px;
+    }
+
+    .logo {
+        padding-left: 0;
+        font-size: 1.5rem;
+        /* margin-bottom: 10px; */
+    }
+
+    .landingPage {
+        flex-direction: column;
+        
+        text-align: center;
+    }
+
+    .content {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .content h3 {
+        font-size: 36px;
+        padding-left: 0;
+    }
+
+    .content p {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .img {
+        width: 90%;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .btns {
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .b1, .b2, .b3 {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .land3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .img2 {
+        width: 90%;
+        margin: 5% auto;
+    }
+    .content2{
+        width: 90%;
+        margin: 5% auto;
+        text-align: center;
+        padding-right: 130%;
+    }
+
+    .notes {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 9px;
+        
+        
+        
+    }
+
+
+    .launch{
+        width: 90%;
+        padding-right: 20%;
+        padding-left: 5%;
+    }
+
+    .launch1{
+        width: 80%;
+        padding-right: 50%;
+
+        
+    }
+
+    .head2{
+        width: 90%;
+        padding-right: 10%;
+    }
+
+    .last2, .last3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .head, .head1, .head2 {
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .head>h3, .head>p, .head2>h3, .head2>p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .cont {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contactHeading {
+        width: 90%;
+    }
+
+    .form {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .subm {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .sub {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+}
+
