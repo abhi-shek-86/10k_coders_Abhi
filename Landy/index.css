@@ -484,3 +484,16 @@ html{
 
 }
 
+@media screen and (max-width: 1080px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    .menu a {
+        font-size: 0.9rem;
+        padding: 10px 0px;
+    }
+}
+
