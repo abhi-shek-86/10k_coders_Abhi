@@ -1,3 +1,8 @@
+html,body{
+    scroll-behavior: smooth;
+}
+
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -466,28 +471,36 @@ footer {
 
 
 
-
-
-
-
-
 @media screen and (max-width: 768px) {
 
     html,
     body {
         width: 100%;
         overflow-x: hidden;
+        scroll-behavior: smooth;
 
     }
 
+    .navlinks{
+        display: none;
+    }
 
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 5px;
+    }
 
-    .navbar {
+    /* .navbar {
         display: flex;
         flex-wrap: wrap;
         width: 80%;
         margin: 0 auto;
         margin-right: 40%;
+    }
+    .down{
+        align-items: center;
     }
 
     .navlinks {
@@ -511,18 +524,28 @@ footer {
         padding-right: 10px;
         padding-left: 25%;
         margin-left: 2px;
+        align-items: center;
+    } */
+
+    .navbar>h1 {
+        font-size: 2rem;
+        padding-right: 10px;
+        padding-left: 5%;
+        margin-left: 2px;
+        align-items: center;
     }
 
     .download {
         font-size: small;
         padding: 4px 8px;
         min-width: unset;
-        margin-top: 20px;
+        margin-top: 10px;
         justify-content: flex-end;
+        margin-right: 20px;
 
     }
 
-
+    
 
     .mainContent {
         display: flex;
@@ -557,8 +580,16 @@ footer {
     }
 
     .submit_tag {
-        padding: 5px 40px;
+        /* display: flex;
+        flex-direction: row;
+        padding: 0px 30px;
         margin-left: 10px;
+        align-items: center; */
+        /* height: 10px; */
+        display: inline-block;
+        font-size: 0.3rem;
+        width: 90%;
+        /* background-color: aqua; */
     }
 
     .minText {
@@ -569,10 +600,18 @@ footer {
         margin-left: 10px;
     }
 
+    
+
     .sub {
-        margin-left: 80px;
+        /* margin-left: 200px; */
+        text-align: end;
+        /* background-color: blueviolet; */
+        
+        /* align-items: center; */
+        
     }
 
+  
     .about {
         flex-direction: column;
         text-align: center;
@@ -609,6 +648,8 @@ footer {
 
     }
 
+
+    
 
     .services {
         padding: 20px;
@@ -721,6 +762,23 @@ footer {
         align-items: center;
     }
 
+
+
+    .submit_tag {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .submit_tag input.name {
+        font-size: 0.9rem;
+        padding: 10px;
+        padding-right: 60px; /* Adjust for button size */
+    }
+
+    .submit_tag input.sub {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
     .form input,
     .input1 {
         width: 90%;
@@ -748,9 +806,10 @@ footer {
         font-size: 0.8rem;
         padding: 4px 8px;
     }
-    .contact{
-        gap: 30px ;
-        
+
+    .contact {
+        gap: 30px;
+
     }
 
 
@@ -758,10 +817,12 @@ footer {
     .contact1 h1 {
         font-size: 1.5rem;
     }
-    .contact2{
+
+    .contact2 {
         /* background-color: #EA580C; */
         margin-right: 15px;
     }
+
     .mat1 h3 {
         font-size: 1rem;
     }
@@ -788,20 +849,19 @@ footer {
 
     }
 
-    .form2{
+    .form2 {
         /* background-color: #EA580C; */
     }
 
-    .input1{
+    .input1 {
         /* background-color: #20a9b2; */
         width: 40%;
     }
-    #inpu{
+
+    #inpu {
         /* background-color: aqua; */
         padding-left: 25%;
 
     }
-
-
 
 }
