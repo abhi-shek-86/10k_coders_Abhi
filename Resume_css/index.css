@@ -1,0 +1,25 @@
+.cgpa{
+    text-align: right;
+    
+}
+
+
+
+h2{
+    height: 30px;
+    width: 100%;
+    background-color: #008080;
+    padding-left: 15px;
+    border-radius: 30px;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+body{
+    background-color: #F8F9FA;
+}
