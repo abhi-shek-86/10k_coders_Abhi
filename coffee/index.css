@@ -201,7 +201,7 @@ body {
     width: 100vw;
     background-color: white;
     height: 630px;
-    
+
     position: relative;
     top: 20px;
     /* bottom: 700px; */
@@ -231,8 +231,8 @@ body {
 
 /* .text{
     width: 50%; */
-    /* background-color: brown; */
-     /* background-color: white;
+/* background-color: brown; */
+/* background-color: white;
     padding: 80px;
     position: relative;
     bottom: 900px;
@@ -257,12 +257,14 @@ body {
         padding: 10px;
     }
 
-    .lochead h1,p{
+    .lochead h1,
+    p {
         font-size: small;
 
     }
 
-    .locationleft, .locationright {
+    .locationleft,
+    .locationright {
         margin: 0;
         gap: 10px;
     }
@@ -272,46 +274,47 @@ body {
         left: 4%;
         right: 10%;
         position: relative;
-        
+
         bottom: 100px;
         display: flex;
         justify-content: center;
-       
+
     }
 
-    .search , .cart {
+    .search,
+    .cart {
         display: none;
     }
 
 
 
-    .navleft> a{
+    .navleft>a {
         display: none;
-        
+
     }
 
-    .navlinks > a{
+    .navlinks>a {
         display: none;
     }
 
-    .aboutus{
+    .aboutus {
         width: 90%;
     }
 
-    .pages{
+    .pages {
         width: 90%;
         position: relative;
         top: 70px;
-        
+
     }
 
-    .discovery1{
+    .discovery1 {
         width: 100%;
         position: relative;
         right: 50px;
     }
 
-    .discovery1 > h1{
+    .discovery1>h1 {
 
         font-size: 1em;
         color: black;
@@ -322,11 +325,11 @@ body {
         padding: 50px;
         align-items: center;
         position: relative;
-        right: 60%; 
+        right: 60%;
     }
 
-    .innerimg{
-        
+    .innerimg {
+
         /* position: relative; */
         /* right: 10px; */
         display: flex;
@@ -337,94 +340,114 @@ body {
         left: 6px;
     }
 
-    .img1{
-       width: 70%;
+    .img1 {
+        width: 70%;
     }
 
 
-    .img2{
+    .img2 {
         width: 70%;
         top: 40px;
         left: 58px;
-         
-        
+
+
     }
 
-    .article1{
+    .article1 {
         background-color: white;
         padding-bottom: 400px;
-        
+
+
     }
 
-    .text{
+    .text {
         width: 100%;
         position: relative;
         top: 50px;
         background-color: white;
         z-index: 10;
-        
+
     }
 
-    .innertext{
+    .innertext {
         width: 90%;
         font-size: 1.5em;
         background-color: white;
         position: relative;
         left: 20px;
         z-index: 1;
-    
+
     }
-    
-    .innertext > p {
+
+    .innertext>p {
         display: flex;
         justify-content: center;
         font-size: large;
-        
+
     }
-    .buttongap{
-        background-color:white;
+
+    .buttongap {
+        background-color: white;
         position: relative;
         left: 20px;
     }
 
-    .article2{
+    .article2 {
         background-color: white;
         padding-bottom: 400px;
         position: relative;
-        
+
+
 
     }
-    .text1{
-        
-        
+
+    .text1 {
+
+
         width: 85%;
         position: relative;
         z-index: 4;
-        top: 300px;
+        top: 400px;
         left: 30px;
-        
-    
+
+
     }
 
-    .text1 > p{
+    .buttongap {
+        width: 100%;
+        /* background-color: blueviolet; */
+        padding-left: 30px;
+        
+
+    }
+
+    .button>span {
+        font-size: 10px;
+        
+    }
+
+
+    .text1>p {
         position: relative;
         left: 70px;
         font-size: large;
     }
 
-    .para >p {
+    .para>p {
         position: relative;
         font-size: large;
-       
+
         /* background-color: blueviolet; */
     }
-    .secImage > img{
+
+    .secImage>img {
         position: relative;
         border-radius: 10px;
         width: 80%;
         left: 29px;
     }
-    .image{
+
+    .image {
         position: relative;
         border-radius: 10px;
         width: 70%;
@@ -433,11 +456,11 @@ body {
     }
 
 
-    
 
 
-  
-    
 
-    
+
+
+
+
 }
