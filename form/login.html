@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form method ="get" action ="./Loginsuccessful.html" autocomplete="off">
+        
+            <label for="username"> <b>Enter Username :</b> </label><br><br>
+            <input type ="text" name = "username" id="username" placeholder="username" pattern="[a-z]+"  title ="Please Enter Only Small Letters" required> <br><br>
+
+            <label for="password"> <b>Enter Password :</b> </label><br><br>
+            <input type="password" name="password" id ="password" placeholder="Enter password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#]).{8,16}" title ="Please Make Sure Min 1 Uppercase, Lowercase, Special Charater,Number" required><br><br>
+
+            <label for="number"> <b>Enter Your Mobile Number :</b></label><br><br>
+            <input type="text" name="number" id ="number" placeholder ="Enter Your Number" pattern ="\+91[6789][0-9]{9}">
+    
+            <br><br>
+            <input type="submit" value ="Login">
+    
+        </form>
+        <br>
+    
+        <a href="./forgot.html"> Forgot</a>  &nbsp;&nbsp;&nbsp;  <a href="./register.html"> Register</a>
+    </center>
+    
+</body>
+</html>

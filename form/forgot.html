@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Forgot</title>
+</head>
+<body>
+
+    <center><form method ="get" action ="./changepassword.html" autocomplete="off">
+       
+        <label for="username"> <b>Enter Username :</b> </label><br><br>
+        <input type ="text" name = "username" id="username" placeholder="username" pattern="[a-z]+" required> <br><br>
+
+        <label for="password"> <b>Enter Your New Password :</b> </label><br><br>
+        <input type ="password" name ="password" id ="password" placeholder="New Password" pattern="[a-zA-Z0-9!@#$%^&*()]+" required>
+        <br>
+        <br>
+
+        <label for="otp"> <b>Enter OTP:</b> </label><br><br>
+        <input type="tel" name="OTP"  placeholder=" OTP"  id ="otp" pattern="1325" required>
+        <p>OTP : 1325</p>
+        
+        <input type="submit" value ="Change Password">
+   
+    
+</form>
+<br>
+
+<a href="./login.html"> Login</a>  &nbsp;&nbsp;&nbsp; <a href="./register.html"> Register</a>
+</center>
+</body>
+</html>

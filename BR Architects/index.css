@@ -1,0 +1,704 @@
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+}
+
+#nav-links{
+    display: flex;
+    /* align-items: center; */
+    gap: 70px;
+    
+}
+
+#nav-links > a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#banner{
+    position: relative;
+    z-index: -1;
+}
+#banner > img{
+    width: 100%;
+    padding: 0px 5px;
+    
+   
+}
+
+#banner > span{
+    font-size: 2rem;
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 45%;
+    background-color: rgba(0, 0, 0, 0.286);
+}
+
+.project > p{
+    font-size:1.3rem;
+    padding-left: 30px;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-content: center;
+    overflow-x: hidden;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    justify-self: center;
+    gap: 15px;
+    width: 100%;
+    position: relative;
+    place-items: center;
+    z-index: -1;
+    /* padding-left: 15px; */
+    
+}
+
+
+.card{
+    width: 300px;
+    position: relative;
+}
+
+.card > img{
+    width: 100%;
+
+}
+
+
+
+.card > span{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    background-color: black;
+    padding: 7px;
+    color: white;
+
+}
+
+.about{
+    width: 100%;
+    
+}
+.about > h2{
+    padding-left: 20px;
+}
+
+.about > p{
+    width: 100%;
+    padding-left: 20px;
+    
+    font-size: 1.2rem;
+}
+
+.boxes{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+}
+
+.box1{
+    background-color:white;
+    width: 282px;
+}
+.box1 > img{
+    width: 100%;
+}
+
+.box1 > button{
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+@media (max-width:450px) {
+
+    #navbar{
+        display: flex;
+        justify-content: space-around;
+        
+        
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        z-index: 0;
+        width: 100%;
+        
+    }
+    
+    #nav-links{
+        display: flex;
+        /* align-items: center; */
+        gap: 70px;
+        
+    }
+    
+    #nav-links > a{
+        text-decoration: none;
+        color: black;
+        display: none;
+    
+    }
+
+    #banner{
+        position: relative;
+        z-index: -1;
+        
+    }
+
+    #banner > img{
+        width: 100%;
+        padding: 0px 5px;
+        margin-top: 48px;
+        
+       
+    }
+    
+    #banner > span{
+        font-size: 1rem;
+        position: absolute;
+        color: white;
+        top: 48%;
+        left: 40%;
+        background-color: rgba(0, 0, 0, 0.286);
+    }
+    .project > p{
+        text-align: center;
+    }
+    
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-content: center;
+        overflow-x: hidden;
+        /* padding: 10px; */
+        box-sizing: border-box;
+        justify-self: center;
+        gap: 15px;
+        width: 100%;
+        position: relative;
+        /* padding-left: 15px; */
+        place-items: center;
+        margin: 0 auto;
+        padding: 0;
+        z-index: -2;
+        
+       
+        
+    }
+    
+    
+    .card{
+        width: 280px;
+        position: relative;
+        
+    }
+    
+    .card > img{
+        width: 100%;
+    
+    }
+    
+    
+    
+    .card > span{
+        font-size: 1rem;
+        position: absolute;
+        left: 0;
+        background-color: black;
+        padding: 7px;
+        color: white;
+    
+    }
+
+
+    .about{
+        width: 100%;
+        
+    }
+    
+    .about > p{
+        width: 100%;
+        
+        
+        font-size: 1rem;
+    }
+
+
+    .boxes{
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+        gap:20px;
+
+        
+    }
+    
+    .box1{
+        background-color:white;
+        width: 250px;
+        /* border: 1px solid black; */
+    }
+    .box1 > img{
+        width: 100%;
+    }
+    
+    .box1 > button{
+        width: 100%;
+        padding: 10px;
+    }
+
+
+}
+
+
+@media (min-width:451px) and (max-width:768px){
+
+    #navbar{
+        display: flex;
+        justify-content: space-around;
+        
+        
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        z-index: 0;
+        width: 100%;
+    }
+    
+    #nav-links{
+        display: flex;
+        /* align-items: center; */
+        gap: 70px;
+        
+    }
+    
+    #nav-links > a{
+        text-decoration: none;
+        color: black;
+    
+    }
+
+    #banner{
+        position: relative;
+        z-index: -1;
+    }
+
+    #banner > img{
+        width: 100%;
+        padding: 0px 5px;
+        margin-top: 35px;
+        
+        
+       
+    }
+    
+    #banner > span{
+        font-size: 2rem;
+        position: absolute;
+        color: white;
+        top: 45%;
+        left: 40%;
+        background-color: rgba(0, 0, 0, 0.286);
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-content: center;
+        overflow-x: hidden;
+        /* padding: 5px; */
+        box-sizing: border-box;
+        justify-self: center;
+        gap: 15px;
+        width: 100%;
+        position: relative;
+        /* padding-left: 15px; */
+        place-items: center;
+        margin: 0 auto;
+        padding: 0;
+        padding: 5px;
+        z-index: -1;
+       
+        
+    }
+    
+    
+    .card{
+        width: 210px;
+        position: relative;
+        
+    }
+    
+    .card > img{
+        width: 100%;
+    
+    }
+    .project > p{
+        font-size: 1.2rem;
+        padding-left: 10px;
+    }
+    
+    
+    .card > span{
+        font-size: 1rem;
+        position: absolute;
+        left: 0;
+        background-color: black;
+        padding: 7px;
+        color: white;
+    
+    }
+
+    .about{
+        width: 100%;
+        
+    }
+    
+    .about > p{
+        width: 100%;
+        
+        
+        font-size: 1rem;
+    }
+
+
+    .boxes{
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+        gap:20px;
+
+        
+    }
+    
+    .box1{
+        background-color:white;
+        width: 200px;
+        /* border: 1px solid black; */
+    }
+    .box1 > img{
+        width: 100%;
+    }
+    
+    .box1 > button{
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    
+}
+
+    
+@media (min-width:768px) and (max-width:900px){
+    #navbar{
+        display: flex;
+        justify-content: space-around;
+        
+        
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        z-index: 0;
+        width: 100%;
+    }
+    
+    #nav-links{
+        display: flex;
+        /* align-items: center; */
+        gap: 70px;
+        
+    }
+    
+    #nav-links > a{
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    /* body > #banner{
+        width: 100%;
+        position: relative;
+        z-index: -1;
+       
+    } */
+    
+    
+    #banner{
+        position: relative;
+        z-index: -1;
+    }
+    #banner > img{
+        width: 100%;
+        padding: 0px 5px;
+        
+       
+    }
+    
+    #banner > span{
+        font-size: 2rem;
+        position: absolute;
+        color: white;
+        top: 45%;
+        left: 45%;
+        background-color: rgba(0, 0, 0, 0.286);
+    }
+    
+    .project > p{
+        font-size:1.3rem;
+        padding-left: 30px;
+    }
+    
+    
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        place-content: center;
+        overflow-x: hidden;
+        /* padding: 10px; */
+        box-sizing: border-box;
+        justify-self: center;
+        gap: 15px;
+        width: 100%;
+        position: relative;
+        place-items: center;
+        z-index: -1;
+        /* padding-left: 15px; */
+        
+    }
+    
+    
+    .card{
+        width: 250px;
+        position: relative;
+    }
+    
+    .card > img{
+        width: 100%;
+    
+    }
+    
+    
+    
+    .card > span{
+        font-size: 1.5rem;
+        position: absolute;
+        left: 0;
+        background-color: black;
+        padding: 7px;
+        color: white;
+    
+    }
+    .about{
+        width: 100%;
+        
+    }
+    
+    .about > p{
+        width: 100%;
+        
+        
+        font-size: 1rem;
+    }
+
+
+    .boxes{
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        place-items: center;
+        gap:20px;
+
+        
+    }
+    
+    .box1{
+        background-color:white;
+        width: 200px;
+        /* border: 1px solid black; */
+    }
+    .box1 > img{
+        width: 100%;
+    }
+    
+    .box1 > button{
+        width: 100%;
+        padding: 10px;
+    }
+
+    
+
+}
+
+@media (min-width:901px) and (max-width:1024px){
+    #navbar{
+        display: flex;
+        justify-content: space-around;
+        
+        
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        z-index: 0;
+        width: 100%;
+    }
+    
+    #nav-links{
+        display: flex;
+        /* align-items: center; */
+        gap: 70px;
+        
+    }
+    
+    #nav-links > a{
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    /* body > #banner{
+        width: 100%;
+        position: relative;
+        z-index: -1;
+       
+    } */
+    
+    
+    #banner{
+        position: relative;
+        z-index: -1;
+    }
+    #banner > img{
+        width: 100%;
+        padding: 0px 5px;
+        
+       
+    }
+    
+    #banner > span{
+        font-size: 2rem;
+        position: absolute;
+        color: white;
+        top: 45%;
+        left: 45%;
+        background-color: rgba(0, 0, 0, 0.286);
+    }
+    
+    .project > p{
+        font-size:1.3rem;
+        padding-left: 30px;
+    }
+    
+    
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        place-content: center;
+        overflow-x: hidden;
+        /* padding: 10px; */
+        box-sizing: border-box;
+        justify-self: center;
+        gap: 15px;
+        width: 100%;
+        position: relative;
+        place-items: center;
+        z-index: -1;
+        /* padding-left: 15px; */
+        
+    }
+    
+    
+    .card{
+        width: 250px;
+        position: relative;
+    }
+    
+    .card > img{
+        width: 100%;
+    
+    }
+    
+    
+    
+    .card > span{
+        font-size: 1.5rem;
+        position: absolute;
+        left: 0;
+        background-color: black;
+        padding: 7px;
+        color: white;
+    
+    }
+    .about{
+        width: 100%;
+        
+    }
+    
+    .about > p{
+        width: 100%;
+        
+        
+        
+        font-size: 1rem;
+    }
+
+
+    .boxes{
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        place-items: center;
+        gap:20px;
+
+        
+    }
+    
+    .box1{
+        background-color:white;
+        width: 200px;
+        /* border: 1px solid black; */
+    }
+    .box1 > img{
+        width: 100%;
+    }
+    
+    .box1 > button{
+        width: 100%;
+        padding: 10px;
+    }
+
+    
+
+}
+

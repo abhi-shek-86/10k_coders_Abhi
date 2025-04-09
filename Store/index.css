@@ -1,0 +1,142 @@
+header {
+    background-color: #ff681f;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Logo on left, text in center */
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 80px; /* Adjust for smaller screens */
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+header h2 {
+    flex: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column; /* Stack logo & text on small screens */
+        align-items: center;
+        text-align: center;
+    }
+
+    header img {
+        margin-bottom: 5px; /* Space between logo & text */
+    }
+
+    header h2 {
+        font-size: 1.2rem; /* Smaller text on mobile */
+    }
+}
+
+
+body{
+    background-color: #fffbef;
+}
+
+.container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333333;
+
+}
+.container nav{
+    word-spacing: 20px;
+    text-align: right;
+    padding-right: 30px;
+    
+    
+
+}
+
+.head{
+    
+    background-color: #fd580c;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+    
+    
+}
+
+
+
+.card1 {
+    background-color: #F8F9FA;
+    width: 280px;
+    height: 400px;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 5px 5px 8px  grey;
+    
+    
+    
+    margin: 20px 30px ;
+    
+}
+
+.btn{
+    padding: 40px 50px;
+    word-spacing: 10px;
+
+    
+}
+
+
+
+
+.btn > button{
+    background-color: #f5f2eb;
+    border-radius: 10px;
+    border: none;
+    box-shadow:3px 3px 4px  grey; ;
+    
+    
+}
+
+
+button {
+    font-size: 11px; /* Increase text size */
+    padding: 12px 24px; /* Increase button size */
+    border-radius: 8px; /* Optional: rounded corners */
+    font-weight: bold; /* Make text bold */
+}
+
+.btn button {
+    font-size: 11px;
+    padding: 9px 10px;
+}
+
+
+.card1 img{
+    width: 100%;
+    height: 50%;
+    border-radius: 30px 30px 0px 0px;
+    
+    
+}
+
+
+    
+
+.card1 > h1{
+    text-align: center;
+}
+

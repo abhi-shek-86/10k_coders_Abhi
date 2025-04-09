@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Register</title>
+</head>
+<body>
+
+    <center>
+        <form method ="get" action ="./registersuccessfull.html" autocomplete="off">
+        
+            <label for="username"> Enter Username : </label><br><br>
+            <input type ="text" name = "username" id="username" placeholder="username"  pattern="[a-z]+" required> <br><br>
+
+            <label for="email"> Enter Your Mail : </label><br><br>
+            <input type ="email" name ="email" id ="email" placeholder="Enter Your Email" required>
+            <br>
+            <br>
+            <label for="password"> Enter Password : </label><br><br>
+            <input type="password" name="password" id ="password" placeholder="Enter password" pattern="[a-zA-Z0-9!@#$%^&*()]+" required>
+    
+            <br><br>
+            <input type="submit" value ="Register">
+    
+        </form>
+        <br>
+        <a href="./login.html"> Login</a>
+    </center>
+    
+</body>
+</html>

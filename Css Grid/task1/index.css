@@ -1,0 +1,29 @@
+.parent{
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+
+}
+
+.child{
+    background-color: rgb(198, 216, 30);
+    
+}
+
+
+.child4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.child1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.child5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
